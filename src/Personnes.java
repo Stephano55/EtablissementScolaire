@@ -3,8 +3,15 @@ abstract class Personnes {
     private String prenom;
     private String rue;
     private String ville;
-    private static int nbPersonnes = 0;
+    private static int nbPersonnes;
 
+    public Personnes(){
+        this.nom = "inconnu";
+        this.prenom = "inconnu";
+        this.rue = "inconnue";
+        this.ville = "inconnue";
+        nbPersonnes++;
+    }
     public Personnes(String nom, String prenom, String rue, String ville){
         this.nom = nom;
         this.prenom = prenom;
