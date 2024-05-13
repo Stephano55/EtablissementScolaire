@@ -14,4 +14,7 @@ public class Enseignant extends Personnes{
     public void ecrirePersonne(){
         System.out.println("\nEnseignat: "+toString());
     }
+    public static int nbEnseignents(){
+        return nbEnseignents;
+    }
 }
