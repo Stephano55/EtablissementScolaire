@@ -10,4 +10,10 @@ public class Secretaire extends Personnes{
     public String toString(){
         return super.toString()+" \nNuméro bureau: "+numBureau;
     }
+    public void ecrirePersonne(){
+        System.out.println("Secrétaire "+toString());
+    }
+    static int nbSecretaire(){
+        return nbSecretaire;
+    }
 }
