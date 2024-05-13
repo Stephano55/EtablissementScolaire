@@ -8,7 +8,7 @@ public class App {
         e1.ecrirePersonne();
         Etudiant e2 = new Etudiant ("Dufour", "Stéphanie", "rue des saules", "Lyon", "DUT info");
         e2.ecrirePersonne();
-        Personnes.nbPersonnes(); // méthode static
+        Personnes.nbPersonnes();
         System.out.println ("\n\nAprès modification :");
         chantal.setPersonne ("rue des sorbiers", "Nantes");
         michel.setPersonne ("rue des lilas", "Rennes");

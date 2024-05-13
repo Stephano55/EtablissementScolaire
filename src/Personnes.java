@@ -25,7 +25,11 @@ abstract class Personnes {
     }
     abstract void ecrirePersonne();
     public static void nbPersonnes(){
-        System.out.println("Le nombre de personnees dans l'etablissement est: "+nbPersonnes);
+        System.out.println("Le nombre de personnees dans l'etablissement est: "+nbPersonnes+
+        "\nNombre de secrétaires : " + Secretaire.nbSecretaire() +
+        "\nNombre d’enseignants : " + Enseignant.nbEnseignents() +
+        "\nNombre d’étudiants : " + Etudiant.nbEtudiants()
+        );
     }
     public void setPersonne(String rue, String ville){
         this.rue = rue;

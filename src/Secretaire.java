@@ -5,6 +5,7 @@ public class Secretaire extends Personnes{
     public Secretaire(String nom, String prenom, String rue, String ville, String numBureau){
         super(nom, prenom, rue, ville);
         this.numBureau = numBureau;
+        nbSecretaire++;
     }
 
     public String toString(){
